@@ -1,0 +1,20 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "api ",
+  "main": "src/index.js",
+  "author": "icaro",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
